@@ -1,2 +1,135 @@
-# 404-error-web-template-2
-A cyber-inspired 404 error page web template built with HTML, CSS, and Vanilla JavaScript, featuring light/dark mode, glitch effects, technical UI elements, theme persistence, and responsive recovery actions.
+# 404 Error Web Template 2
+
+A futuristic and responsive **404 error page web template** built with **HTML5, CSS3, and Vanilla JavaScript**.
+
+This template uses a cyber / glitch-inspired visual style designed for technical websites, developer tools, software products, digital platforms, gaming pages, experimental portfolios, and modern frontend projects.
+
+It features a bold 404 presentation, technical interface styling, Light/Dark Mode support, responsive behavior, recovery actions, and lightweight interactive effects.
+
+## Preview
+
+Open:
+
+`index.html`
+
+in your browser.
+
+No installation, backend, database, or build process is required.
+
+## Features
+
+- Cyber / glitch-inspired 404 design
+- Responsive layout
+- Large stylized 404 presentation
+- Technical error panel
+- Clear page-not-found messaging
+- Primary recovery CTA
+- Secondary recovery action
+- Light Mode
+- Dark Mode
+- Theme toggle
+- Persistent theme preference
+- Responsive typography
+- Keyboard-accessible controls
+- Visible focus states
+- Reduced-motion support
+- Lightweight CSS effects
+- Vanilla JavaScript interactions
+- Mobile-friendly layout
+- No framework dependency
+- No backend dependency
+
+## Design Style
+
+This template uses a high-contrast technical visual language based around:
+
+- Glitch-inspired typography
+- Digital interface styling
+- Technical panels
+- Monospace accents
+- Neon-like highlights
+- Structured UI blocks
+- Futuristic layout composition
+- Distinct recovery actions
+
+The goal is to make a missing-page experience feel striking, modern, and memorable while remaining usable.
+
+## Light & Dark Mode
+
+The template includes fully designed:
+
+- Light Mode
+- Dark Mode
+
+The selected theme is stored locally in the browser so the preference persists after refreshing the page.
+
+Both themes are intentionally styled rather than relying on simple inversion.
+
+## Recovery Actions
+
+The page includes clear recovery actions such as:
+
+- Return Home
+- Go Back
+
+Depending on the implementation, the recovery controls may use more technical or system-inspired labeling while remaining easy to understand.
+
+## Responsive Design
+
+The layout is designed for:
+
+- Mobile phones
+- Tablets
+- Laptops
+- Desktop monitors
+- Large displays
+
+Typography, technical panels, CTA buttons, and the glitch-focused composition adapt to smaller screen sizes.
+
+## Accessibility
+
+The template includes accessibility-focused improvements such as:
+
+- Semantic HTML
+- Keyboard-accessible controls
+- Visible focus states
+- Accessible theme toggle
+- Reduced-motion support
+- Readable color contrast
+- Proper interactive elements
+
+## Technology
+
+Built using only:
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+The project does not require:
+
+- React
+- Next.js
+- Vue
+- Angular
+- Bootstrap
+- Tailwind CSS
+- jQuery
+- TypeScript
+- Backend
+- Database
+- Build tools
+
+## Project Structure
+
+```text
+404-error-web-template-2/
+│
+├── index.html
+│
+└── assets/
+    ├── css/
+    │   └── ...
+    │
+    └── js/
+        └── ...
