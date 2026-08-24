@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A readable cyber-glitch 404 template.">
+<title>Route Not Found // 404</title>
+<script>try{document.documentElement.dataset.theme=localStorage.getItem('cyber-theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')}catch(e){}</script>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<link rel="stylesheet" href="assets/css/v2.css">
+</head>
+<body>
+<div class="scan" aria-hidden="true">
+</div>
+<div class="cyber-grid" aria-hidden="true"></div>
+<header>
+<a href="index.html" class="brand">GRID_7</a>
+<button class="theme" type="button" aria-label="Switch interface theme">
+<span>MODE://DARK</span>
+</button>
+</header>
+<main>
+<div class="code">SYS.ERROR <b>0x194</b>
+</div>
+<h1 data-text="404">404</h1>
+<section>
+<p class="prompt">&gt; route_lookup --requested</p>
+<dl class="error-panel"><div><dt>ERROR CODE</dt><dd>404</dd></div><div><dt>ROUTE</dt><dd class="current-path">/UNKNOWN</dd></div><div><dt>STATUS</dt><dd>NOT_FOUND</dd></div><div><dt>NETWORK</dt><dd>ONLINE</dd></div></dl>
+<h2>NODE NOT FOUND</h2>
+<p>The requested route is missing from the network. Reconnect to a known node.</p>
+<a href="/" class="primary">RETURN_HOME()</a>
+<button class="back secondary-command" type="button">RESET_ROUTE</button>
+</section>
+</main>
+<footer>STATUS: <span>RECOVERY AVAILABLE</span>
+</footer>
+<script src="assets/js/main.js" defer>
+</script>
+</body>
+</html>

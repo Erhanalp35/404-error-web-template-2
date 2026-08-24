@@ -1,0 +1,21 @@
+/* V2 refinement */
+body:after{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;background:radial-gradient(circle at 20% 30%,color-mix(in srgb,var(--cyan) 8%,transparent),transparent 28%)}
+.cyber-grid{position:fixed;inset:0;z-index:0;pointer-events:none;background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(90deg,black,transparent 55%);opacity:.35}
+.error-panel{border:1px solid var(--grid);margin:18px 0 22px;font-size:10px}
+.error-panel div{display:grid;grid-template-columns:110px 1fr}
+.error-panel div+div{border-top:1px solid var(--grid)}
+.error-panel dt,.error-panel dd{margin:0;padding:6px 8px}
+.error-panel dt{color:color-mix(in srgb,var(--text) 55%,transparent);border-right:1px solid var(--grid)}
+.error-panel dd{color:var(--cyan);overflow:hidden;text-overflow:ellipsis}
+.primary{clip-path:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,10px 100%,0 calc(100% - 10px))}
+.secondary-command{margin:18px 0 0 16px;border:0;border-bottom:1px dashed var(--red);background:transparent;color:var(--red);padding:8px;font:700 11px "Courier New";cursor:pointer}
+body,.theme,.primary{transition:background-color .25s,color .25s,border-color .25s}
+@media(max-width:760px){.error-panel{max-width:420px;margin-inline:auto}
+}
+@media(max-height:500px) and (min-width:600px){body{overflow:auto}
+header{padding-block:10px}
+main{padding-block:20px;grid-template-columns:.8fr 1.2fr}
+h1{font-size:35vh}
+.error-panel div{grid-template-columns:90px 1fr}
+footer{display:none}
+}
